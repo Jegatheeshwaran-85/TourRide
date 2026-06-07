@@ -136,3 +136,79 @@ body{
     color:#0077b6;
     font-weight:bold;
 }
+/* Vehicle Cards */
+
+.vehicle-section{
+    padding:80px 10%;
+    background:#f8fafc;
+}
+
+.vehicle-section h2{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:40px;
+}
+
+.vehicle-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.vehicle-card{
+    width:320px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.vehicle-card:hover{
+    transform:translateY(-10px);
+}
+
+.vehicle-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.vehicle-card h3{
+    padding:15px;
+}
+
+.price{
+    padding:0 15px;
+    font-weight:bold;
+}
+
+.available{
+    color:green;
+    padding:10px 15px;
+}
+
+.booked{
+    color:red;
+    padding:10px 15px;
+}
+
+.book-btn{
+    margin:15px;
+    background:#00b4d8;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.disabled-btn{
+    margin:15px;
+    background:#999;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+}
