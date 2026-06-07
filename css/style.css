@@ -299,3 +299,26 @@ body{
         display:none;
     }
 }
+
+
+
+
+/* Dashboard */
+
+.dashboard-section{
+    padding:80px 10%;
+}
+
+.dashboard-section h2{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:40px;
+}
+
+.dashboard-card{
+    background:white;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
