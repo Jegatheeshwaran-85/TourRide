@@ -258,3 +258,44 @@ body{
     cursor:pointer;
     font-size:16px;
 }
+
+
+
+/* Ticket Page */
+
+.ticket-section{
+    padding:80px 10%;
+    display:flex;
+    justify-content:center;
+}
+
+.ticket-card{
+    width:700px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.ticket-card h1{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:20px;
+}
+
+.ticket-card p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.ticket-status{
+    color:green;
+    font-weight:bold;
+}
+
+@media print{
+    .navbar,
+    .book-btn{
+        display:none;
+    }
+}
