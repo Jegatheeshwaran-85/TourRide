@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Booking Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Vehicle</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
 
-<h1>Booking Page</h1>
+<nav class="navbar">
+    <div class="logo">TourRide</div>
+</nav>
+
+<section class="booking-section">
+
+    <h2>Vehicle Booking Form</h2>
+
+    <form class="booking-form">
+
+        <input type="text"
+        placeholder="Full Name"
+        required>
+
+        <input type="tel"
+        placeholder="Phone Number"
+        required>
+
+        <input type="email"
+        placeholder="Email Address"
+        required>
+
+        <input type="text"
+        placeholder="Driving License Number"
+        required>
+
+        <label>Pickup Date</label>
+        <input type="date" required>
+
+        <label>Return Date</label>
+        <input type="date" required>
+
+        <button type="submit">
+            Continue To Payment
+        </button>
+
+    </form>
+
+</section>
 
 </body>
 </html>
