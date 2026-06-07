@@ -3,3 +3,11 @@ document.querySelectorAll("button").forEach(btn=>{
         alert("Booking feature coming soon!");
     });
 });
+
+
+function bookVehicle(vehicleName, price){
+
+    localStorage.setItem("vehicleName", vehicleName);
+    localStorage.setItem("vehiclePrice", price);
+
+}
